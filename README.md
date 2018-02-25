@@ -21,7 +21,7 @@ if you use the number 5 the output will be as follows:
 * pong
 
 ### Link
-Link to deployed page _(click here)_<a href=https://alchemy17.github.io/pingpong/ title="Title">
+Link to deployed page _(click here)_<a href=https://alchemy17.github.io/pingpong/ target="_blank" title="Title">
 Ping-Pong</a>
 
 ## Licenses and Terms of Use  
