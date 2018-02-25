@@ -1,6 +1,5 @@
 //back-end
 var pingPongNumber = [];
-
 function pingPong (input1){
     for (var index = 1; index <= input1; index+=1){
         if(index % 15 === 0){
