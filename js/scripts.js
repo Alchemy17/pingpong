@@ -1,4 +1,4 @@
-//business logic
+//back-end
 var pingPongNumber = [];
 
 function pingPong (input1){
@@ -17,12 +17,10 @@ function pingPong (input1){
         }
     }
 }
-
-
-//user interface logic
+//front-end
 
 $(document).ready(function(){
-   $("form#ping-pong").submit(function(event){
+   $("form#start").submit(function(event){
       event.preventDefault();
       var input1 = parseInt($("input#input1").val());
 
