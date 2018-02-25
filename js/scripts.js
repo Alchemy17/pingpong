@@ -1,19 +1,19 @@
 //business logic
-var numbersToBePingponged = [];
+var pingPongNumber = [];
 
 function pingPong (number){
     for (var index = 1; index <= number; index+=1){
         if(index % 15 === 0){
-            numbersToBePingponged.push("pingpong");
+            pingPongNumber.push("pingpong");
         }
         else if(index % 5 === 0){
-            numbersToBePingponged.push("pong");
+            pingPongNumber.push("pong");
         }
         else if(index % 3 === 0){
-            numbersToBePingponged.push("ping");
+            pingPongNumber.push("ping");
         }
         else{
-            numbersToBePingponged.push(index);
+            pingPongNumber.push(index);
         }
     }
 }
@@ -24,12 +24,12 @@ function pingPong (number){
 $(document).ready(function(){
    $("form#ping-pong").submit(function(event){
       event.preventDefault();
-      var number = parseInt($("input#number").val());
+      var input1 = parseInt($("input#input1").val());
 
-      pingPong(number);
+      pingPong(input1);
 
-      numbersToBePingponged.forEach(function(number){
-         $("#output").append('<li>' + number + "</li>");
+      pingPongNumber.forEach(function(number){
+         $("#output").append('<li>' + input1 + "</li>");
       });
    });
 });
