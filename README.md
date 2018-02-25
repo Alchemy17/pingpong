@@ -10,23 +10,24 @@ Author: Abdulrahman Mohamed
 ### Example
 if you use the number 5 the output will be as follows:
 
-1
+* 1
 
-2
+* 2
 
-ping
+* ping
 
-4
+* 4
 
-pong
+* pong
 
+### Link
 Link to deployed page _(click here)_<a href=https://alchemy17.github.io/pingpong/ title="Title">
 Ping-Pong</a>
 
-### licenses and terms of use  
+## Licenses and Terms of Use  
 this application's source code is free for any open source projects
 &copy; MIT
 
-### Acknowledgements
+## Acknowledgements
 
 | MORINGA SCHOOL |
