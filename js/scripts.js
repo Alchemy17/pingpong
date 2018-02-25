@@ -1,8 +1,8 @@
 //business logic
 var pingPongNumber = [];
 
-function pingPong (number){
-    for (var index = 1; index <= number; index+=1){
+function pingPong (input1){
+    for (var index = 1; index <= input1; index+=1){
         if(index % 15 === 0){
             pingPongNumber.push("pingpong");
         }
@@ -28,7 +28,7 @@ $(document).ready(function(){
 
       pingPong(input1);
 
-      pingPongNumber.forEach(function(number){
+      pingPongNumber.forEach(function(input1){
          $("#output").append('<li>' + input1 + "</li>");
       });
    });
