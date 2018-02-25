@@ -1,14 +1,50 @@
 .jumbotron{
-	background-image: url("../img/backgrounds/landing.jpg");
-	height: 100vh;
+	background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5) ), url('../img/bg.jpg');
+	height: 80vh;
 	width:100%;
 	background-repeat: no-repeat;
 	background-size:cover;
 	display: flex;
-	justify-content:center;
-	align-items:center;
+	justify-content: center;
+	align-items: center;
 	background-attachment: fixed;
 	padding: 0px;
 	margin: 0px;
 	border: none;
+}
+.font1{
+  font-size: 100px;
+  font-family: 'Perfect Dark (BRK)', arial;
+  color: white;
+}
+.brd{
+	padding-left: 70px;
+	margin-top: 7%;
+}
+.mrgin{
+	background-image: url(../img/blur.jpeg);
+	background-repeat: repeat-y;
+	color: white;
+	margin-top: 2%;
+	margin-top: -7%;
+}
+.border{
+  background-color: white;
+	align-items: center;
+	width: 38vh;
+	height: 12vh;
+	justify-content: center;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+#border1{
+  background-color: white;
+	align-items: center;
+	color: black;
+	text-shadow: 3px 2px white;
+}
+#txt a{
+	color: black;
+	text-shadow: 3px 2px yellow;
 }
