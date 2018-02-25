@@ -17,7 +17,6 @@ function pingPong (input1){
     }
 }
 //front-end
-
 $(document).ready(function(){
    $("form#start").submit(function(event){
       event.preventDefault();
