@@ -8,7 +8,7 @@ Author: Abdulrahman Mohamed
 * Numbers divisible by 15 are replaced with "pingpong"
 
 ### Example
-if you use the number 15 the output will be as follows:
+if you use the number 5 the output will be as follows:
 
 1
 
@@ -20,26 +20,6 @@ ping
 
 pong
 
-ping
-
-7
-
-8
-
-ping
-
-pong
-
-11
-
-ping
-
-13
-
-14
-
-pingpong
-
 Link to deployed page _(click here)_<a href=https://alchemy17.github.io/pingpong/ title="Title">
 Ping-Pong</a>
 
@@ -47,6 +27,6 @@ Ping-Pong</a>
 this application's source code is free for any open source projects
 &copy; MIT
 
-###Acknowledgements
+### Acknowledgements
 
-|MORINGA SCHOOL |
+| MORINGA SCHOOL |
