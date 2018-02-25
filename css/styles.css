@@ -51,3 +51,12 @@
 	color: black;
 	text-shadow: 3px 2px white;
 }
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	background-color: #ccc;
+}
