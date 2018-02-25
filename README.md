@@ -1,13 +1,7 @@
 # PING PONG
 
 >Author: Abdulrahman Mohamed
->
->---------------------------
->
->Project Name: Ping-Pong
->
->---------------------------
->
+
 ### Specifications
 * Numbers divisible by 3 are replaced with "ping"
 * Numbers divisible by 5 are replaced with "pong"
@@ -45,17 +39,13 @@
 >14
 >
 >pingpong
->
->---------------------------
->
->Link to deployed page _(click here)_<a href=https://domanisamuel.github.io/ping-pong/ title="Title">
+
+>Link to deployed page _(click here)_<a href=https://alchemy17.github.io/pingpong/ title="Title">
 Ping-Pong</a>
->
->---------------------------
->
+
 ### licenses and terms of use  
 this application's source code is free for any open source projects
 >
 >---------------------------
 >
-&copy; domanisamuel | Credits <a href="http://moringaschool.com/" title="Title">MORINGA SCHOOL</a>
+&copy; MIT 
